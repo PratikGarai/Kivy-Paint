@@ -7,7 +7,6 @@ Config.set('graphics','height',400)
 Config.set('graphics','width',500)
 
 Builder.load_file('comicwidgets.kv')
-Builder.load_file('comiccreator.kv')
 Builder.load_file('drawingspace.kv')
 Builder.load_file('toolbox.kv')
 Builder.load_file('statusbar.kv')
