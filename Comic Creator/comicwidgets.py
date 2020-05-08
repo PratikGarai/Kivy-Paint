@@ -48,3 +48,6 @@ class DraggableWidget(RelativeLayout):
         if self.selected:
             self.canvas.remove(self.selected)
             self.selected = None
+
+class StickMan(DraggableWidget):
+    pass
