@@ -5,7 +5,7 @@ from kivy.graphics import Line
 class DraggableWidget(RelativeLayout):
 
     def __init__(self,**kwargs):
-        self.selected = None
+        self.selected = None   #The surrounding rectangle
         super(DraggableWidget,self).__init__(**kwargs)
 
 

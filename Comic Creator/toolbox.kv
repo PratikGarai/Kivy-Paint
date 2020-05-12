@@ -14,14 +14,17 @@
 <ToolBox@GridLayout>:
 	cols:2
 	padding:2
-	ToolButton:
+	ToolCircle:
+		id : _tool_circle
 		canvas :
 			Line :
-				circle : 24,24,12
-	ToolButton:
+				circle : 24,24,14
+	ToolLine:
+		id : _tool_line
 		canvas:
 			Line:
 				points : 10,10,38,38
 	ToolStickMan:
+		id : _tool_stickman
 		StickMan:
 			pos_hint :{'center_x':.5, 'center_y':.5}
