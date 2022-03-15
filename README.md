@@ -1,1 +1,3 @@
-# Comic-Creator-Kivy
+# Paint
+
+An attempt to create Paint using Kivy.
